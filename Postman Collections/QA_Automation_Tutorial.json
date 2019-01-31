@@ -1,0 +1,24 @@
+{
+  "info": {
+    "_postman_id": "4c604ada-4c64-446f-9fd3-4d062d279c74",
+    "name": "QA Automation Tutorial",
+    "description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests an user can send?",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "_postman_id": "07f62fe1-16df-4993-aa37-d29eac5cc572",
+      "name": "Request 1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": ""
+      },
+      "response": []
+    }
+  ]
+}
