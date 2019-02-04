@@ -19,6 +19,53 @@
         "url": ""
       },
       "response": []
+    },
+    {
+      "_postman_id": "ec93966c-d1b9-48fe-82e7-64486b961526",
+      "name": "https://reqres.in/api/users",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "bdb171c8-4474-49b8-b5ba-f4776a6ac164",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "https://reqres.in/api/users",
+          "protocol": "https",
+          "host": [
+            "reqres",
+            "in"
+          ],
+          "path": [
+            "api",
+            "users"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "2",
+              "equals": true,
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
     }
   ]
 }
