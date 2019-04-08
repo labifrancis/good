@@ -7,21 +7,6 @@
   },
   "item": [
     {
-      "_postman_id": "07f62fe1-16df-4993-aa37-d29eac5cc572",
-      "name": "Request 1",
-      "request": {
-        "method": "GET",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": ""
-        },
-        "url": ""
-      },
-      "response": []
-    },
-    {
-      "_postman_id": "ec93966c-d1b9-48fe-82e7-64486b961526",
       "name": "https://reqres.in/api/users",
       "event": [
         {
@@ -37,15 +22,15 @@
           }
         }
       ],
+      "_postman_id": "ec93966c-d1b9-48fe-82e7-64486b961526",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
       "request": {
         "method": "GET",
         "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": ""
-        },
         "url": {
-          "raw": "https://reqres.in/api/users",
+          "raw": "https://reqres.in/api/users?",
           "protocol": "https",
           "host": [
             "reqres",
@@ -59,7 +44,6 @@
             {
               "key": "page",
               "value": "2",
-              "equals": true,
               "disabled": true
             }
           ]
